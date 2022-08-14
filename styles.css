@@ -6,8 +6,8 @@
 }
 
 body {
-  
-    
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -16,7 +16,7 @@ body {
 
 
 .card {
-    position: relative;
+    position: absolute;
     width: 420px;
     height: 470px;
     margin: 20px;
